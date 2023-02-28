@@ -1,0 +1,54 @@
+    body {
+        background-color: rgb(127, 255, 212);
+        font-family: Monaco, monospace;
+    }
+    
+    .bannerImageHome {
+        background-image: url(resources/banner.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 300px;
+        border-bottom: 2px solid black;
+    }
+    
+    .bannerImageContact {
+        background-image: url(resources/balloonsGalore.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 300px;
+        border-bottom: 2px solid black;
+    }
+    
+    .bannerImageEquipment {
+        background-image: url(resources/bounceHouse.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* height: 500px; */
+        padding-bottom: 500px;
+        border-bottom: 2px solid black;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(127, 255, 212, 50%);
+    }
+    
+    nav h3 a {
+        font-size: 30px;
+        color: black
+    }
+    
+    figure img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        background-color: rgba(127, 255, 212, 50%);
+    }
