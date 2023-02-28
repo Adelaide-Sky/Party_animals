@@ -7,7 +7,7 @@
         background-image: url(resources/banner.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        padding-bottom: 300px;
+        padding-bottom: 600px;
         border-bottom: 2px solid black;
     }
     
@@ -15,7 +15,7 @@
         background-image: url(resources/balloonsGalore.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        padding-bottom: 300px;
+        padding-bottom: 600px;
         border-bottom: 2px solid black;
     }
     
@@ -24,7 +24,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         /* height: 500px; */
-        padding-bottom: 500px;
+        padding-bottom: 600px;
         border-bottom: 2px solid black;
     }
     
@@ -51,4 +51,23 @@
         margin-top: 0%;
         margin-bottom: 0%;
         background-color: rgba(127, 255, 212, 50%);
+    }
+    
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .cards_item {
+        display: flex;
+        width: fit-content;
+        border: 2px solid black;
+        margin: 30px;
+        background-color: white;
+    }
+    
+    .card p {
+        font-size: 30px;
+        text-align: center;
     }
